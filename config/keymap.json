@@ -3,7 +3,7 @@
   "keymap": "default",
   "layout": "LAYOUT",
   "layer_names": [
-    "base",
+    "default_layer",
     "func_layer",
     "num_layer",
     "conf_layer"
