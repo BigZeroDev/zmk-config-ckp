@@ -14,15 +14,6 @@
             bindings = <&mo 1>, <&tog 1>;
         };
     };
-	behaviors {
-        tt2: tap_dance_1 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_1";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&tog 2>, <&tog 0>, <&mo 3>;
-        };
-    };
 	keymap {
 		compatible = "zmk,keymap";
 		default_layer {
